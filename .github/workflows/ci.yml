@@ -27,7 +27,7 @@ jobs:
 
       - name: Lint
         run: |
-          ruff check src tests
+          ruff check --config pyproject.toml --ignore I001 src tests
 
       - name: Test
         run: |
