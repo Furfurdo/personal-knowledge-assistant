@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+knowledge_base/*
+!knowledge_base/.gitkeep
+!knowledge_base/sample.md
+
+vector_store/*
+!vector_store/.gitkeep
